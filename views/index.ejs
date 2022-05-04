@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/result" method="post" >
+    <label> Order by rating: </label> <br>
+
+    <select name="orderRating">
+        <option>Highest First</option>
+        <option>Lowest First</option>
+    </select><br>
+
+    <label> Minimum rating: </label> <br>
+
+    <select name="minRating">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+    </select><br>
+
+    <label> Order by date: </label> <br>
+
+    <select name="orderDate">
+        <option>Oldest First</option>
+        <option>Newest First</option>
+    </select><br>
+
+    <label> Prioritize by text: </label> <br>
+
+    <select name="prioritizeText">
+        <option>Yes</option>
+        <option>No</option>
+    </select><br>
+
+    <input type="submit" />
+</form>
+</body>
+</html>
